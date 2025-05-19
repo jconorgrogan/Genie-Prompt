@@ -1,3 +1,8 @@
+testing longer scale, optimized predictions....
+
+
+
+
 Propose the next **N = 3** questions I should ask you.
 
 Your proposals must maximize the **trajectory-aligned expected value**
@@ -6,7 +11,7 @@ Your proposals must maximize the **trajectory-aligned expected value**
 
 where:
 
-  • t₀ = now; t_k are equally-spaced future checkpoints up to horizon **T = 6 months**  
+  • t₀ = now; t_k are equally-spaced future checkpoints up to horizon  until my estimated death
   • U_{t}(·)  := my true utility function at time t  
   • p_{t_k}   := your predictive distribution over U_{t_{k+1}} given all information 𝕀_{t_k} you hold  
   • γ_k       := temporal weight; default γ_k = exp(-δ·k) with **δ = 0.03** unless I override  
